@@ -3,6 +3,7 @@ import './App.css';
 import axios from "axios";
 import Characters from "./components/Characters.js"
 
+
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
@@ -29,7 +30,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">Characters</h1>
-      <Characters characters = {characters}/>
+      <Characters characters = {characters} />
     </div>
   );
 }
